@@ -1,19 +1,67 @@
 h1, h2{
 	color: palevioletred;
   	font-family: "Lucida Handwriting", Verdana, sans-serif;
+  	font-size: 35px;
 }
 
 body{
-	margin: 0;
 	background-color: pink;
+	font-family: "Lucida Handwriting", Verdana, sans-serif;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+main{
+	margin: 0 auto;
+	max-width: 800px;
+    padding: 20px;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.container {
+    margin: 0 auto;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
 }
 
 img{
 	width: 300px;
 }
 
+p.caption{
+	color: dimgray;
+	font-style: italic;
+	margin-top: 0;
+}
+
 header{
 	text-align: center;
 	padding-top: 50px;
 	padding-bottom: 50px;
+	background-image: url(https://wallpaperaccess.com/full/4950197.png);
+}
+
+h2{
+	margin: 40px 0 10px;
+}
+
+a{
+	color: black;
+	font-weight: bold;
+}
+
+a:hover{
+	color: palevioletred;
+}
+
+footer{
+	font-style: italic;
+	text-align: center;
+	background-color: white;
 }
