@@ -1,0 +1,19 @@
+h1, h2{
+	color: palevioletred;
+  	font-family: "Lucida Handwriting", Verdana, sans-serif;
+}
+
+body{
+	margin: 0;
+	background-color: pink;
+}
+
+img{
+	width: 300px;
+}
+
+header{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
